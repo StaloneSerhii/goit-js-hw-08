@@ -1,6 +1,6 @@
 import { galleryItems } from './gallery-items.js';
 import SimpleLightbox from "simplelightbox";
-import 'simpleLightbox/dist/simple-lightbox.min.css';
+
 
 // Додатковий імпорт стилів
 
