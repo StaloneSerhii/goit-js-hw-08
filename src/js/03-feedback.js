@@ -32,6 +32,5 @@ function onClickSubj(e) {
   e.currentTarget.reset();
   localStorage.removeItem(STORAGE_KEY);
  
-    
-       console.log(objAll);
 }
+console.log('asdasd');
