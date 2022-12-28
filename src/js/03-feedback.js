@@ -37,6 +37,8 @@ function onClickSubj(e) {
     localStorage.removeItem(STORAGE_KEY);
 
     e.currentTarget.reset();
+    
+ 
     delete(date.email);
  delete(date.message);
 }
