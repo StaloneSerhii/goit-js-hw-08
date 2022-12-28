@@ -30,8 +30,8 @@ function onForm (e) {
 }
 
 function onClickSubj(e) {
-
-    console.log(date);
+    const dataVelueVisual = JSON.parse(localStorage.getItem(STORAGE_KEY))
+    console.log(dataVelueVisual);
     
     e.preventDefault();
     localStorage.removeItem(STORAGE_KEY);
