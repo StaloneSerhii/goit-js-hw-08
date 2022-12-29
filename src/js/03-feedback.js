@@ -10,10 +10,10 @@ const date = {};
 
 if (localStorage.getItem(STORAGE_KEY)) {
     const parse = JSON.parse(localStorage.getItem(STORAGE_KEY))
-    forms.elements.email.value = parse.email;
+    forms.elements.email.value = parse.email || " ";
     
     
-    forms.elements.message.value = parse.message;
+    forms.elements.message.value = parse.message || " ";
         console.log(localStorage.getItem(JSON.parse(STORAGE_KEY)));
 }
 
