@@ -14,7 +14,7 @@ if (localStorage.getItem(STORAGE_KEY)) {
     
     
     forms.elements.message.value = parse.message || " ";
-        console.log(localStorage.getItem(JSON.parse(STORAGE_KEY)));
+      
 }
 
 
